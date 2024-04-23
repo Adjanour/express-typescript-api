@@ -1,5 +1,5 @@
 import  {MongoClient} from "mongodb"
-import  {DEV_CONN_STRX,CONN_STRX,ENV_TYPE} from "./config.js"
+import  {DEV_CONN_STRX,CONN_STRX,ENV_TYPE} from "./config"
 
 if (DEV_CONN_STRX == undefined || CONN_STRX == undefined){
     throw new Error("Connection string is not defined")
